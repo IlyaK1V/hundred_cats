@@ -1,10 +1,10 @@
+import asyncio
 from datetime import datetime
 from pathlib import Path
-import asyncio
 
+import aiofiles
 import aiofiles.os
 import aiohttp
-import aiofiles
 
 BASE_DIR = Path(__file__).parent
 CATS_DIR = BASE_DIR / 'cats'
